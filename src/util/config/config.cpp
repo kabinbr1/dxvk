@@ -358,6 +358,11 @@ namespace dxvk {
     { R"(\\SF3ClientFinal\.exe$)", {{
       { "d3d11.cachedDynamicResources",        "v" },
     }} },
+    /* The Evil Within 2 *
+    * Game speeds up above 120 fps */
+    { R"(\\TEW2\.exe$)", {{
+      { "dxgi.maxFrameRate",                 "-120" },
+    }} },
     /* Tom Clancy's Ghost Recon Breakpoint        */
     { R"(\\GRB\.exe$)", {{
       { "dxgi.hideNvidiaGpu",              "False" },
